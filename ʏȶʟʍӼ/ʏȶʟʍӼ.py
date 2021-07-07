@@ -6,9 +6,8 @@ from youtube_dl import YoutubeDL
 ydl_opts = {'format': 'bestaudio','outtmpl': '%(title)s - %(extractor)s-%(id)s.%(ext)s','writethumbnail': True}
 YMMG = "https://telegra.ph/file/f67971660902803035d42.jpg"
 YMGI = "https://telegra.ph/file/3f50d5aefad4cab71e754.jpg"
-DY = YYEX = YOUTUBE_REGEX_SITES = (r"^((?:https?:)?\/\/)"r"?((?:www|m)\.)"r"?((?:|youtube\.com|youtu\.be|))"r"(\/)([-a-zA-Z0-9()@:%_\+.~#?&//=]*)([\w\-]+)(\S+)?$")
+DY = YTGENX = r"^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$"
 PL = "playing"
-DT = DONOYT =  REGEX_EXCLUDE_URL = (r"\/channel\/|\/playlist\?list=|&list=|\/sets\/")
 JOIN_BUTTLOCK = InlineKeyboardMarkup([        
         [InlineKeyboardButton(
           "🎬『 𝗬𝗼𝘂𝘁𝘂𝗯𝗲 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿 』🎧",

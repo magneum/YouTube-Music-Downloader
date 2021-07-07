@@ -8,8 +8,7 @@ from pyrogram import Client as ɦɛʊʟ, filters, StopPropagation
 
 @ɦɛʊʟ.on_message(
 filters.private
-& filters.regex(DY)
-& ~filters.regex(DT))
+& filters.regex(DY))
 async def mscgetter(_,ytrgx: Message):
     await mscupldr(ytrgx)   
 async def mscupldr(ytrgx: Message):
