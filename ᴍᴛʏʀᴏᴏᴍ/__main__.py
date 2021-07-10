@@ -1,6 +1,6 @@
 from . import *
 import shutil
-ɦʏքɛʋօɨɖֆօʊʟ.start()
+Client.start()
 LOGS.info(SI)
 idle()
 try:
@@ -11,5 +11,5 @@ try:
     shutil.rmtree(M)
 except:
     pass
-ɦʏքɛʋօɨɖֆօʊʟ.stop()
+Client.stop()
 LOGS.info(SE)

@@ -10,7 +10,7 @@ from JKEDPPWEFJMXZPADOWQDJNADSMP import *
 from knite import *
 
 
-ɦʏքɛʋօɨɖֆօʊʟ = Client(
+Client(
     HS,
     api_id=Feros.APP_ID,
     api_hash=Feros.API_HASH,
