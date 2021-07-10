@@ -2,4 +2,4 @@ build:
   docker:
     worker: Dockerfile
 run:
-   web: python3 BOOTUP.py
+   worker: python3 BOOTUP.py
