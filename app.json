@@ -28,25 +28,25 @@
       "Get yout HYTM_KEY from @kryoli_bot. Check GitHub Repo for direct link",
       "required":
       true
-    },
-    "BOT_TOKEN":
-    {
-    "description":
-    "Put your @BotFather BOT_TOKEN",
-    "required":
-    true
-    },
-    "ENV":
-    {
-    "description":
-    "Keep it as HEROKU",
-    "required":
-    true,
-    "value":
-    "HEROKU"
-    }
-    },
-    "buildpacks": [
+      },
+      "BOT_TOKEN":
+      {
+      "description":
+      "Put your @BotFather BOT_TOKEN",
+      "required":
+      true
+      },
+      "ENV":
+      {
+      "description":
+      "Keep it as HEROKU",
+      "required":
+      true,
+      "value":
+      "HEROKU"
+      }
+      },
+      "buildpacks": [
       {
       "url":
       "https://github.com/HypeVoidSoul/Heroku-Buildpack-ffmpeg.git"

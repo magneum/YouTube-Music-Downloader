@@ -1,2 +1,2 @@
 import os
-os.system("python -m ᴍᴛʏʀᴏᴏᴍ")
+os.system("python -m ¥†KK¥")

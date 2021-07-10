@@ -2,7 +2,7 @@ from pyrogram import Client as ɦɛʊʟ, filters
 from pyrogram import StopPropagation
 from pyrogram.types import Message
 from ꜰɪɴx import *
-from ʏȶʟʍӼ import *
+from JKEDPPWEFJMXZPADOWQDJNADSMP import *
 
 @ɦɛʊʟ.on_message(
 filters.private

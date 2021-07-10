@@ -2,7 +2,7 @@ import os
 import ffmpeg
 import asyncio
 from ꜰɪɴx import *
-from ʏȶʟʍӼ import *
+from JKEDPPWEFJMXZPADOWQDJNADSMP import *
 from pyrogram.types import Message
 from pyrogram import Client as ɦɛʊʟ, filters, StopPropagation
 

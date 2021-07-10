@@ -12,5 +12,8 @@ class Feros(object):
     API_HASH = "4b7731b0a6d8e15bef82863887feb293"
     APP_ID = 6372795
     BOT_TOKEN = "1669919636:AAHjnWscap3c2V9XwMZduFLtd5JC79uHXz4"
+    HYTM_KEY = "~HYPE-kjeGcnwydKSKpSc-VOID~"
 class YTGX(Feros):
     LOGGER = True
+    
+DM = "knite"
