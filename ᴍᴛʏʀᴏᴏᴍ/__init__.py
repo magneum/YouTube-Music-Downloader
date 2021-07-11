@@ -1,5 +1,4 @@
-from pyrogram import Client
-from pyrogram.methods.utilities import idle
+from pyrogram import Client,idle
 import shutil
 from logging import INFO, basicConfig, getLogger
 basicConfig(
