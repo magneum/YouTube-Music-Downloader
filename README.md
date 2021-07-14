@@ -1,4 +1,4 @@
-🔥 ΉYPΣ VӨID LΛB 🔥__Wê Ärê H¥þêVðïÐ§__🔥 ΉYPΣ VӨID LΛB 🔥
+|🔥🔥|======|ΉYPΣ_VӨID_LΛB|======|🔥🔥|
 [![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 # 🔥⭐️『 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺-𝗬𝗼𝘂𝗧𝘂𝗯𝗲𝗠𝘂𝘀𝗶𝗰𝗗𝗟 』⭐️🔥
 <p align="centre"><img  width="60%" height="100%" img src="https://telegra.ph/file/f67971660902803035d42.jpg" /></p>
@@ -44,4 +44,4 @@ DΣV MΣNƬIӨN:
 ## 📜 LICΣПSΣ  
 - 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺-𝗬𝗼𝘂𝗧𝘂𝗯𝗲𝗠𝘂𝘀𝗶𝗰𝗗𝗟 𝘪𝘴 𝘭𝘪𝘤𝘦𝘯𝘴𝘦𝘥 𝘶𝘯𝘥𝘦𝘳 𝘵𝘩𝘦 𝘎𝘕𝘜 𝘎𝘦𝘯𝘦𝘳𝘢𝘭 𝘗𝘶𝘣𝘭𝘪𝘤 𝘓𝘪𝘤𝘦𝘯𝘴𝘦 𝘷3.0[GNU V3.0](LICENSE)
 
-🔥 ΉYPΣ VӨID LΛB 🔥__Wê Ärê H¥þêVðïÐ§__🔥 ΉYPΣ VӨID LΛB 🔥
+|🔥🔥|======|ΉYPΣ_VӨID_LΛB|======|🔥🔥|
