@@ -23,7 +23,7 @@ DΣV MΣNƬIӨN:
 ```
 
 ## 〽️ MΣΣƬ US ӨЯ CΉΣCK ӨƬΉΣЯ BӨƬS   
-- [![Generic badge](https://img.shields.io/badge/YouTubeMusicDownloader-Vïå_ßð†-red.svg)](https://t.me/HVYouTubeMusicBot)
+- [![Generic badge](https://img.shields.io/badge/𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺_𝗬𝗼𝘂𝗧𝘂𝗯𝗲𝗠𝘂𝘀𝗶𝗰𝗗𝗟-Vïå_ßð†-red.svg)](https://t.me/HVYouTubeMusicBot)
 𝙳𝚒𝚛𝚎𝚌𝚝𝚕𝚢 𝚞𝚜𝚎 𝚃𝚑𝚎 𝙱𝚘𝚝 𝚒𝚗 𝚝𝚎𝚕𝚎𝚐𝚛𝚊𝚖
 - [![Generic badge](https://img.shields.io/badge/𝙷𝚢𝚙𝚎𝚅𝚘𝚒𝚍𝙱𝚘𝚝-Vïå_ßð†-orange.svg)](https://t.me/HypeVoidBot) 
 𝘛𝘶𝘳𝘯 𝘰𝘯 𝘣𝘰𝘵 𝘪𝘯 𝘵𝘦𝘭𝘦𝘨𝘳𝘢𝘮 𝘢𝘯𝘥 𝘵𝘺𝘱𝘦 /us
