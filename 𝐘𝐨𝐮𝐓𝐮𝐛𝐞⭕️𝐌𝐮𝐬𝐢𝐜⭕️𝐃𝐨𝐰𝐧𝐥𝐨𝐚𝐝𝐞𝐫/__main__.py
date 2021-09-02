@@ -13,6 +13,10 @@ has been licensed under GNU General Public License                              
 
 
 import os
+os.system("clear")
+os.system("pip uninstall ffmpeg-python -y ")
+os.system("pip install ffmpeg-python")
+os.system("clear")
 import sys
 import time
 import shutil
@@ -54,7 +58,7 @@ HEROKU = getenv("HEROKU", None)
 BFS = 64 * 1024
 CODE = getenv("CODE", None)
 HPCD = getenv("HEROKU", None)
-#load_dotenv("./𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫.env")
+load_dotenv("./𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫.env")
 
 
 
@@ -273,15 +277,9 @@ has been licensed under GNU General Public License                              
 ====================================================================═デ 𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 デ═======================================================================="""
 
 
-# YouTube_Opts = {
-# 'format': "bestaudio[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best",
-# 'outtmpl': '%(title)s - %(extractor)s-%(id)s.%(ext)s',
-# "no_warnings": True,
-# "ignoreerrors": True,
-# 'writethumbnail': True}
 
 VOIDED = YouTube_Opts = {
-'format': "bestaudio/best",
+'format': "bestaudio[ext=m4a]/best[ext=mp4]/best",
 'outtmpl': '%(title)s - %(extractor)s-%(id)s.%(ext)s',
 "no_warnings": True,
 "ignoreerrors": True,
