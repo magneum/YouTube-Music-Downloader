@@ -1,6 +1,6 @@
 [![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)<img align="centre" src="https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg" alt="HypeVoidSoul"/>
 <img align="centre" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"/>
-# 🔥⭐️『 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺-𝗬𝗼𝘂𝗧𝘂𝗯𝗲𝗠𝘂𝘀𝗶𝗰𝗗𝗟 』⭐️🔥
+# 🔥⭐️『 𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 』⭐️🔥
 <p align="centre"><img  width="100%" height="100%" img src="https://telegra.ph/file/f67971660902803035d42.jpg" /></p>
 
 
@@ -19,7 +19,7 @@ DΣV MΣNƬIӨN:
 ```
 
 ## 〽️ MΣΣƬ US ӨЯ CΉΣCK ӨƬΉΣЯ BӨƬS   
-- [![Generic badge](https://img.shields.io/badge/𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺_𝗬𝗼𝘂𝗧𝘂𝗯𝗲𝗠𝘂𝘀𝗶𝗰𝗗𝗟-Vïå_ßð†-red.svg)](https://t.me/HVYouTubeMusicBot)
+- [![Generic badge](https://img.shields.io/badge/𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫-Vïå_ßð†-red.svg)](https://t.me/HVYouTubeMusicBot)
 𝙳𝚒𝚛𝚎𝚌𝚝𝚕𝚢 𝚞𝚜𝚎 𝚃𝚑𝚎 𝙱𝚘𝚝 𝚒𝚗 𝚝𝚎𝚕𝚎𝚐𝚛𝚊𝚖
 - [![Generic badge](https://img.shields.io/badge/𝙷𝚢𝚙𝚎𝚅𝚘𝚒𝚍𝙱𝚘𝚝-Vïå_ßð†-orange.svg)](https://t.me/HypeVoidBot) 
 𝘛𝘶𝘳𝘯 𝘰𝘯 𝘣𝘰𝘵 𝘪𝘯 𝘵𝘦𝘭𝘦𝘨𝘳𝘢𝘮 𝘢𝘯𝘥 𝘵𝘺𝘱𝘦 /us

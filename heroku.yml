@@ -2,4 +2,4 @@ build:
   docker:
     worker: Dockerfile
 run:
-   worker: python3 BOOTUP.py
+   worker: python3 -m 𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫

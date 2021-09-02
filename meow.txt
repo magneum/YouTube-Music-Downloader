@@ -1,5 +1,0 @@
-Pillow
-Pyrogram
-TgCrypto
-ffmpeg-python
-youtube-dl
