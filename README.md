@@ -1,4 +1,5 @@
-# 🔥⭐️『 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺-𝗬𝗼𝘂𝗧𝘂𝗯𝗲𝗠𝘂𝘀𝗶𝗰𝗗𝗟 』⭐️🔥[![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+# 🔥⭐️『 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺-𝗬𝗼𝘂𝗧𝘂𝗯𝗲𝗠𝘂𝘀𝗶𝗰𝗗𝗟 』⭐️🔥
 <p align="centre"><img  width="100%" height="100%" img src="https://telegra.ph/file/f67971660902803035d42.jpg" /></p>
 <img align="centre" src="https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg" alt="HypeVoidSoul"/>
 <img align="centre" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"/>
