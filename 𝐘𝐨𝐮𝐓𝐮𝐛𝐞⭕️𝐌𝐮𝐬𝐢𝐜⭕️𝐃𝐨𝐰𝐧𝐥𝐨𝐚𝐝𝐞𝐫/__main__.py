@@ -349,12 +349,16 @@ has been licensed under GNU General Public License                              
 @𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜.on_message(
 filters.incoming
 & ~filters.edited
-& filters.regex(allow_regex)
-& ~filters.regex(do_not_allow_regex))
+& filters.regex(do_not_allow_regex))
 async def just_get_message(_,𝐓𝐮𝐛𝐞: Message):
     await 𝐓𝐮𝐛𝐞.delete()
-    await 𝐓𝐮𝐛𝐞.reply_chat_action("record_audio")
-    await just_get_Message(𝐓𝐮𝐛𝐞)  
+    await 𝐓𝐮𝐛𝐞.reply_photo("https://telegra.ph/file/276f806feff4c00c6b501.jpg",
+        caption=f"""
+一 𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 一
+
+⚠️  **This Bot will never let users download any playlist audios any sooner**
+""")
+    return
 
 
 
@@ -406,7 +410,9 @@ async def just_get_Message(𝐓𝐮𝐛𝐞: Message):
     try:
         if userLastDownloadTime > datetime.now():
             wait_time = round((userLastDownloadTime - datetime.now()).total_seconds() / 60, 2)
-            await 𝐓𝐮𝐛𝐞.reply_text(f"Wait {wait_time * 60} seconds before next Request")
+            NO = await 𝐓𝐮𝐛𝐞.reply_text(f"Wait {wait_time * 60} seconds before next Request")
+            await asyncio.sleep(1)
+            await NO.delete()
             return
     except:
         pass
@@ -419,9 +425,16 @@ async def just_get_Message(𝐓𝐮𝐛𝐞: Message):
         now = datetime.now()
         user_time[𝐓𝐮𝐛𝐞.chat.id] = now + \
                                      timedelta(minutes=youtube_next_fetch)
-
     except Exception:
-        await 𝐓𝐮𝐛𝐞.reply_text("Failed To Fetch Youtube Data...")
+        NO = await 𝐓𝐮𝐛𝐞.reply_photo("https://telegra.ph/file/276f806feff4c00c6b501.jpg",
+        caption=f"""
+一 𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 一
+
+⚠️  **Failed To Fetch Youtube Data...**
+"""
+)       
+        await asyncio.sleep(2)
+        await NO.delete()
         return
 
     Audio_Hole = HV_YouTube_Audio.extract_info(𝐓𝐮𝐛𝐞.text,download=False)
@@ -432,7 +445,8 @@ async def just_get_Message(𝐓𝐮𝐛𝐞: Message):
 
 ⚠️  **Telegram Does not allow users to download media size bigger then 2000mb!**
 ⚠️  **Please try less then 60min of Audio...**
-""")
+"""
+)
         return
     HV_YouTube_Audio.process_info(Audio_Hole)
     audio_file = HV_YouTube_Audio.prepare_filename(Audio_Hole)
