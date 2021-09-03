@@ -6,5 +6,6 @@ requests
 termcolor
 loguru
 python-dotenv
+youtube-dl
 pyAesCrypt
 ffmpeg-python   

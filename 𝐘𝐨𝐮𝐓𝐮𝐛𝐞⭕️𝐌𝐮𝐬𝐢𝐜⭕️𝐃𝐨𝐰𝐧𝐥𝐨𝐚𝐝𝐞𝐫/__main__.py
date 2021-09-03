@@ -278,8 +278,9 @@ has been licensed under GNU General Public License                              
 
 
 
+
 VOIDED = YouTube_Opts = {
-'format': "bestaudio[ext=m4a]/best[ext=mp4]/best",
+'format': 'bestaudio',
 'outtmpl': '%(title)s - %(extractor)s-%(id)s.%(ext)s',
 "no_warnings": True,
 "ignoreerrors": True,
