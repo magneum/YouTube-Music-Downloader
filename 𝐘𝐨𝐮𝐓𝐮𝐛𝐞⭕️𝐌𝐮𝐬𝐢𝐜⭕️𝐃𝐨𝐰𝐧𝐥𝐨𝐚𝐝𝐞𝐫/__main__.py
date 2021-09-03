@@ -348,8 +348,7 @@ REGEX_EXCLUDE_URL = (
 
 
 @𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜.on_message(
-filters.texts
-& filters.incoming
+filters.incoming
 & ~filters.edited
 & filters.regex(REGEX_SITES)
 & ~filters.regex(REGEX_EXCLUDE_URL))
@@ -357,6 +356,7 @@ async def just_get_message(_,𝐓𝐮𝐛𝐞: Message):
     await 𝐓𝐮𝐛𝐞.delete()
     await 𝐓𝐮𝐛𝐞.reply_chat_action("record_audio")
     await just_get_Message(𝐓𝐮𝐛𝐞)   
+
 
 
 
