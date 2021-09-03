@@ -384,7 +384,7 @@ filters.incoming
 & ~filters.regex(do_not_allow_regex))
 async def just_get_message(_,𝐓𝐮𝐛𝐞: Message):
     await 𝐓𝐮𝐛𝐞.delete()
-    await 𝐓𝐮𝐛𝐞.reply_chat_action("record_audio")
+    await 𝐓𝐮𝐛𝐞.reply_chat_action("playing")
     await just_get_Message(𝐓𝐮𝐛𝐞)   
 
 
@@ -418,7 +418,6 @@ async def just_get_Message(𝐓𝐮𝐛𝐞: Message):
         pass
 
     url = 𝐓𝐮𝐛𝐞.text.strip()
-    await 𝐓𝐮𝐛𝐞.reply_chat_action("typing")
     try:
         title, thumbnail_url, formats = ask_link_info(url)
         print(title, thumbnail_url, formats)
@@ -453,7 +452,6 @@ async def just_get_Message(𝐓𝐮𝐛𝐞: Message):
     HV_YouTube_Audio.process_info(Audio_Hole)
     audio_file = HV_YouTube_Audio.prepare_filename(Audio_Hole)
     await audio_sender(𝐓𝐮𝐛𝐞, Audio_Hole,audio_file)
-    await 𝐓𝐮𝐛𝐞.reply_chat_action("record_audio")
 
 
 
@@ -473,6 +471,7 @@ has been licensed under GNU General Public License                              
 
 
 async def audio_sender(𝐓𝐮𝐛𝐞: Message, Audio_Hole, audio_file):
+    await 𝐓𝐮𝐛𝐞.reply_chat_action("upload_audio")
     basename = audio_file.rsplit(".", 1)[-2]
     if Audio_Hole['ext'] == 'webm':
         audio_file_opus = basename + ".opus"
