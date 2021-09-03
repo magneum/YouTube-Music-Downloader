@@ -350,7 +350,7 @@ has been licensed under GNU General Public License                              
 filters.incoming
 & ~filters.edited
 & filters.regex(do_not_allow_regex))
-async def just_get_message(_,𝐓𝐮𝐛𝐞: Message):
+async def just_deny_that(_,𝐓𝐮𝐛𝐞: Message):
     await 𝐓𝐮𝐛𝐞.delete()
     await 𝐓𝐮𝐛𝐞.reply_photo(photo="https://telegra.ph/file/276f806feff4c00c6b501.jpg",
         caption=f"""
