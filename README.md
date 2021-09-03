@@ -2,8 +2,8 @@
 <img align="centre" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"/>
 # 🔥⭐️『 𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 』⭐️🔥
 <p align="centre"><img  width="100%" height="100%" img src="https://telegra.ph/file/276f806feff4c00c6b501.jpg" /></p>
-<p align="centre"><img  width="100%" height="100%" img src="https://github.com/HypeVoidSoul/YouTubeMusic-Downloader.git/blob/VOID/𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫-1.PNG" /></p>
-<p align="centre"><img  width="100%" height="100%" img src="https://github.com/HypeVoidSoul/YouTubeMusic-Downloader.git/blob/VOID/𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫-2.PNG" /></p>
+<p align="centre"><img  width="50%" height="100%" img src="https://github.com/HypeVoidSoul/YouTubeMusic-Downloader.git/blob/VOID/YTM-1.PNG" /></p>
+<p align="centre"><img  width="50%" height="100%" img src="https://github.com/HypeVoidSoul/YouTubeMusic-Downloader.git/blob/VOID/YTM-2.PNG" /></p>
 
 
 ## ❓ WΉY MΛDΣ ƬΉIS BӨƬ?
