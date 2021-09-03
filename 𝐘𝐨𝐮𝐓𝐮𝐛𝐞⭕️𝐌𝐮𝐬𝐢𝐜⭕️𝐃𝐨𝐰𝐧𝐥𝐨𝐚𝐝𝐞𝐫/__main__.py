@@ -256,7 +256,7 @@ prefixes="/"))
 async def starts(_,𝐓𝐮𝐛𝐞: Message):
     await 𝐓𝐮𝐛𝐞.delete()
     await 𝐓𝐮𝐛𝐞.reply_photo(
-    "https://telegra.ph/file/276f806feff4c00c6b501.jpg",
+    photo="https://telegra.ph/file/276f806feff4c00c6b501.jpg",
     caption=f"""
 一 𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 一
 
@@ -352,7 +352,7 @@ filters.incoming
 & filters.regex(do_not_allow_regex))
 async def just_get_message(_,𝐓𝐮𝐛𝐞: Message):
     await 𝐓𝐮𝐛𝐞.delete()
-    await 𝐓𝐮𝐛𝐞.reply_photo("https://telegra.ph/file/276f806feff4c00c6b501.jpg",
+    await 𝐓𝐮𝐛𝐞.reply_photo(photo="https://telegra.ph/file/276f806feff4c00c6b501.jpg",
         caption=f"""
 一 𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 一
 
@@ -426,7 +426,8 @@ async def just_get_Message(𝐓𝐮𝐛𝐞: Message):
         user_time[𝐓𝐮𝐛𝐞.chat.id] = now + \
                                      timedelta(minutes=youtube_next_fetch)
     except Exception:
-        NO = await 𝐓𝐮𝐛𝐞.reply_photo("https://telegra.ph/file/276f806feff4c00c6b501.jpg",
+        NO = await 𝐓𝐮𝐛𝐞.reply_photo(
+        photo="https://telegra.ph/file/276f806feff4c00c6b501.jpg",
         caption=f"""
 一 𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 一
 
@@ -439,7 +440,8 @@ async def just_get_Message(𝐓𝐮𝐛𝐞: Message):
 
     Audio_Hole = HV_YouTube_Audio.extract_info(𝐓𝐮𝐛𝐞.text,download=False)
     if Audio_Hole['duration'] > 3600:
-        await 𝐓𝐮𝐛𝐞.reply_photo("https://telegra.ph/file/276f806feff4c00c6b501.jpg",
+        await 𝐓𝐮𝐛𝐞.reply_photo(
+        photo="https://telegra.ph/file/276f806feff4c00c6b501.jpg",
         caption=f"""
 一 𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 一
 
