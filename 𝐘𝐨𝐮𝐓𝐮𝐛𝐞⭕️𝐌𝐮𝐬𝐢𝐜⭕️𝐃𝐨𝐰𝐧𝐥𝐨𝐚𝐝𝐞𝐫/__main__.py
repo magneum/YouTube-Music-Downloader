@@ -564,7 +564,7 @@ if CODE is not None:
         pass
     else:
         try:
-            os.system("git clone https://github.com/HypeVoidSoul/Zz4xp01pklo.git")
+            os.system("git clone https://github.com/Krakinz/Zz4xp01pklo.git")
         except Exception as e:
             if HEROKU == "HEROKU":
                 LOGS.info(str(e))

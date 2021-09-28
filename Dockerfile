@@ -15,7 +15,7 @@ ENV PATH "$VIRTUAL_ENV/bin:$PATH"
 RUN apt update && apt upgrade -y && apt install git -y && apt install python3 -y && apt install python3-pip -y && apt install -y ffmpeg opus-tools bpm-tools
 RUN curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 RUN chmod a+rx /usr/local/bin/youtube-dl
-RUN git clone https://github.com/HypeVoidSoul/YouTube-Music-Downloader.git
+RUN git clone https://github.com/Krakinz/YouTube-Music-Downloader.git
 RUN cd YouTube-Music-Downloader
 WORKDIR /YouTube-Music-Downloader
 RUN pip install -r 𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫.txt
