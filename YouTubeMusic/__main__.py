@@ -38,7 +38,7 @@ has been licensed under GNU General Public License
 𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 (𝐂) 𝟐𝟎𝟐𝟏 𝗞𝗿𝗮𝗸𝗶𝗻𝘇 | 𝗞𝗿𝗮𝗸𝗶𝗻𝘇𝗟𝗮𝗯 | 𝗞𝗿𝗮𝗸𝗶𝗻𝘇𝗕𝗼𝘁  
 ====================================================================一デ 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 デ 一
 """
-user_time = {}
+USER_CHECKER = {}
 youtube_next_fetch = 1
 if os.path.exists("𝐌𝐮𝐬𝐢𝐜.env"):
     load_dotenv("𝐌𝐮𝐬𝐢𝐜.env")
@@ -137,8 +137,8 @@ def boot_reshape(img):
 
 def YouTube_Fetched_Url(url):
     url_path = urlparse(url).path
-    basename = os.path.basename(url_path)
-    return basename.split(".")[-1]
+    KRAK_BASENAME = os.path.KRAK_BASENAME(url_path)
+    return KRAK_BASENAME.split(".")[-1]
 
 
 def Shape_It_To_Square(thumbnail, output):
@@ -172,9 +172,9 @@ has been licensed under GNU General Public License
     & filters.command(
         "start",
         prefixes="/"))
-async def starts(_, 𝐓𝐮𝐛𝐞: Message):
-    await 𝐓𝐮𝐛𝐞.delete()
-    await 𝐓𝐮𝐛𝐞.reply_photo(
+async def starts(_, 𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞: Message):
+    await 𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞.delete()
+    await 𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞.reply_photo(
         photo="https://telegra.ph/file/276f806feff4c00c6b501.jpg",
         caption=f"""📌I Am 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫  that can take any youtube audio link and send you its music in mere seconds.
 📌Just send me the 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 audio link and wait.
@@ -182,9 +182,9 @@ async def starts(_, 𝐓𝐮𝐛𝐞: Message):
 ⚠️  **ONLY AUDIO! Check below button for VIDEO**
 """,
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("〽️ 𝐆𝐫𝐨𝐮𝐩", url="https://t.me/Krakns")],
+            [InlineKeyboardButton("〽️ Group", url="https://t.me/Krakns")],
             [InlineKeyboardButton(
-                "⚜️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/KrakinzLab")],
+                "⚜️ Channel", url="https://t.me/KrakinzLab")],
             [InlineKeyboardButton("YouTube🎬Downloader",
                                   url="https://t.me/HvYouTubeBot")],
             [InlineKeyboardButton("YouTubeMusic⭕️Downloader",
@@ -197,7 +197,7 @@ VOIDED = YouTube_Opts = {'format': 'bestaudio',
                          "no_warnings": True,
                          "ignoreerrors": True,
                          'writethumbnail': True}
-HV_YouTube_Audio = YoutubeDL(VOIDED)
+KRAK_YTM = YoutubeDL(VOIDED)
 """
 =================================================================一デ 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 デ 一
 GNU GENERAL PUBLIC LICENSE            
@@ -247,11 +247,11 @@ has been licensed under GNU General Public License
     filters.incoming
     & ~filters.edited
     & filters.regex(do_not_allow_regex))
-async def just_deny_that(_, 𝐓𝐮𝐛𝐞: Message):
-    await 𝐓𝐮𝐛𝐞.delete()
-    await 𝐓𝐮𝐛𝐞.reply_photo(photo="https://telegra.ph/file/276f806feff4c00c6b501.jpg",
-                           caption=f"""
-一 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 一
+async def just_deny_that(_, 𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞: Message):
+    await 𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞.delete()
+    await 𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞.reply_photo(photo="https://telegra.ph/file/276f806feff4c00c6b501.jpg",
+                                caption=f"""
+デ 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 デ 
 
 ⚠️  **This Bot will never let users download any playlist audios any sooner**
 """)
@@ -275,10 +275,10 @@ has been licensed under GNU General Public License
     & ~filters.edited
     & filters.regex(allow_regex)
     & ~filters.regex(do_not_allow_regex))
-async def just_get_message(_, 𝐓𝐮𝐛𝐞: Message):
-    await 𝐓𝐮𝐛𝐞.delete()
-    await 𝐓𝐮𝐛𝐞.reply_chat_action("playing")
-    await just_get_Message(𝐓𝐮𝐛𝐞)
+async def just_get_message(_, 𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞: Message):
+    await 𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞.delete()
+    await 𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞.reply_chat_action("playing")
+    await JUST_GET_MESSAGE(𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞)
 """
 =================================================================一デ 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 デ 一
 GNU GENERAL PUBLIC LICENSE            
@@ -293,31 +293,31 @@ has been licensed under GNU General Public License
 """
 
 
-async def just_get_Message(𝐓𝐮𝐛𝐞: Message):
-    userLastDownloadTime = user_time.get(𝐓𝐮𝐛𝐞.chat.id)
+async def JUST_GET_MESSAGE(𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞: Message):
+    LAST_DL_TIMER = USER_CHECKER.get(𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞.chat.id)
     try:
-        if userLastDownloadTime > datetime.now():
-            wait_time = round(
-                (userLastDownloadTime - datetime.now()).total_seconds() / 60, 2)
-            NO = await 𝐓𝐮𝐛𝐞.reply_text(f"Wait {wait_time * 60} seconds before next Request")
+        if LAST_DL_TIMER > datetime.now():
+            HOLSTER = round(
+                (LAST_DL_TIMER - datetime.now()).total_seconds() / 60, 2)
+            NO = await 𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞.reply_text(f"Wait {HOLSTER * 60} seconds before next Request")
             await asyncio.sleep(1)
             await NO.delete()
             return
     except:
         pass
 
-    url = 𝐓𝐮𝐛𝐞.text.strip()
+    url = 𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞.text.strip()
     try:
-        title, thumbnail_url, formats = ask_link_info(url)
-        print(title, thumbnail_url, formats)
+        title, KRAK_THUMBNAIL_URL, formats = ask_link_info(url)
+        print(title, KRAK_THUMBNAIL_URL, formats)
         now = datetime.now()
-        user_time[𝐓𝐮𝐛𝐞.chat.id] = now + \
+        USER_CHECKER[𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞.chat.id] = now + \
             timedelta(minutes=youtube_next_fetch)
     except Exception:
-        NO = await 𝐓𝐮𝐛𝐞.reply_photo(
+        NO = await 𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞.reply_photo(
             photo="https://telegra.ph/file/276f806feff4c00c6b501.jpg",
             caption=f"""
-一 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 一
+デ 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 デ 
 
 ⚠️  **Failed To Fetch Youtube Data...**
 """
@@ -326,21 +326,21 @@ async def just_get_Message(𝐓𝐮𝐛𝐞: Message):
         await NO.delete()
         return
 
-    Audio_Hole = HV_YouTube_Audio.extract_info(𝐓𝐮𝐛𝐞.text, download=False)
-    if Audio_Hole['duration'] > 3600:
-        await 𝐓𝐮𝐛𝐞.reply_photo(
+    KRAK_AUDIOHOLE = KRAK_YTM.extract_info(𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞.text, download=False)
+    if KRAK_AUDIOHOLE['duration'] > 3600:
+        await 𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞.reply_photo(
             photo="https://telegra.ph/file/276f806feff4c00c6b501.jpg",
             caption=f"""
-一 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 一
+デ 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 デ 
 
 ⚠️  **Telegram Does not allow users to download media size bigger then 2000mb!**
 ⚠️  **Please try less then 60min of Audio...**
 """
         )
         return
-    HV_YouTube_Audio.process_info(Audio_Hole)
-    audio_file = HV_YouTube_Audio.prepare_filename(Audio_Hole)
-    await audio_sender(𝐓𝐮𝐛𝐞, Audio_Hole, audio_file)
+    KRAK_YTM.process_info(KRAK_AUDIOHOLE)
+    KRAK_AUDIOFILE = KRAK_YTM.prepare_filename(KRAK_AUDIOHOLE)
+    await KRAK_AUDIOSENDER(𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞, KRAK_AUDIOHOLE, KRAK_AUDIOFILE)
 """
 =================================================================一デ 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 デ 一
 GNU GENERAL PUBLIC LICENSE            
@@ -355,35 +355,36 @@ has been licensed under GNU General Public License
 """
 
 
-async def audio_sender(𝐓𝐮𝐛𝐞: Message, Audio_Hole, audio_file):
-    await 𝐓𝐮𝐛𝐞.reply_chat_action("upload_audio")
-    basename = audio_file.rsplit(".", 1)[-2]
-    if Audio_Hole['ext'] == 'webm':
-        audio_file_opus = basename + ".opus"
-        ffmpeg.input(audio_file).output(audio_file_opus, codec="copy").run()
-        os.remove(audio_file)
-        audio_file = audio_file_opus
-    thumbnail_url = Audio_Hole['thumbnail']
-    if os.path.isfile(basename + ".jpg"):
-        Master_Thumb = basename + ".jpg"
+async def KRAK_AUDIOSENDER(𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞: Message, KRAK_AUDIOHOLE, KRAK_AUDIOFILE):
+    await 𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞.reply_chat_action("upload_audio")
+    KRAK_BASENAME = KRAK_AUDIOFILE.rsplit(".", 1)[-2]
+    if KRAK_AUDIOHOLE['ext'] == 'webm':
+        KRAK_AUDIO_OPUS = KRAK_BASENAME + ".opus"
+        ffmpeg.input(KRAK_AUDIOFILE).output(
+            KRAK_AUDIO_OPUS, codec="copy").run()
+        os.remove(KRAK_AUDIOFILE)
+        KRAK_AUDIOFILE = KRAK_AUDIO_OPUS
+    KRAK_THUMBNAIL_URL = KRAK_AUDIOHOLE['thumbnail']
+    if os.path.isfile(KRAK_BASENAME + ".jpg"):
+        KRAK_MASTER_THUMB = KRAK_BASENAME + ".jpg"
     else:
-        Master_Thumb = basename + "." + \
-            YouTube_Fetched_Url(thumbnail_url)
-    resized_thumb = basename + "_reshpedSQ.jpg"
-    Shape_It_To_Square(Master_Thumb, resized_thumb)
-    webpage_url = Audio_Hole['webpage_url']
-    title = Audio_Hole['title']
-    duration = int(float(Audio_Hole['duration']))
-    performer = Audio_Hole['uploader']
-    if os.path.isfile(basename + ".jpg"):
-        SQ_Thumb = basename + ".jpg"
+        KRAK_MASTER_THUMB = KRAK_BASENAME + "." + \
+            YouTube_Fetched_Url(KRAK_THUMBNAIL_URL)
+    KRAK_RESIZED_THUMB = KRAK_BASENAME + "_reshpedSQ.jpg"
+    Shape_It_To_Square(KRAK_MASTER_THUMB, KRAK_RESIZED_THUMB)
+    webpage_url = KRAK_AUDIOHOLE['webpage_url']
+    title = KRAK_AUDIOHOLE['title']
+    duration = int(float(KRAK_AUDIOHOLE['duration']))
+    performer = KRAK_AUDIOHOLE['uploader']
+    if os.path.isfile(KRAK_BASENAME + ".jpg"):
+        SQ_Thumb = KRAK_BASENAME + ".jpg"
     else:
-        SQ_Thumb = basename + "." + \
-            YouTube_Fetched_Url(thumbnail_url)
-    Squared_Thumb = basename + "_nonreshpedSQQ.jpg"
-    Shape_It_To_Square(SQ_Thumb, Squared_Thumb)
-    void = await 𝐓𝐮𝐛𝐞.reply_photo(
-        Squared_Thumb,
+        SQ_Thumb = KRAK_BASENAME + "." + \
+            YouTube_Fetched_Url(KRAK_THUMBNAIL_URL)
+    KRAK_SQUARED_THUMB = KRAK_BASENAME + "_nonreshpedSQQ.jpg"
+    Shape_It_To_Square(SQ_Thumb, KRAK_SQUARED_THUMB)
+    void = await 𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞.reply_photo(
+        KRAK_SQUARED_THUMB,
         caption=f"""
     ✨🤩 𝙽𝚒𝚌𝚎 𝚌𝚑𝚘𝚒𝚌𝚎! 🤩✨ 
 🛒𝚈𝚘𝚞𝚛 𝙰𝚞𝚍𝚒𝚘 𝚏𝚒𝚕𝚎 𝚠𝚒𝚕𝚕 𝚋𝚎 𝚑𝚎𝚛𝚎 𝚜𝚑𝚘𝚛𝚝𝚕𝚢
@@ -394,22 +395,22 @@ async def audio_sender(𝐓𝐮𝐛𝐞: Message, Audio_Hole, audio_file):
 ⌛️**ᴅᴜʀᴀᴛɪᴏɴ:**  [{duration}s](https://t.me/KrakinzLab)
 📡**ʟɪɴᴋ:**  __{webpage_url}__
 
-一 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 一
+デ 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 デ 
 """,
         parse_mode='markdown')
-    await 𝐓𝐮𝐛𝐞.reply_audio(
-        audio_file,
+    await 𝐌𝐮𝐬𝐢𝐜𝐓𝐮𝐛𝐞.reply_audio(
+        KRAK_AUDIOFILE,
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("〽️ 𝐆𝐫𝐨𝐮𝐩", url="https://t.me/Krakns")],
+            [InlineKeyboardButton("〽️ Group", url="https://t.me/Krakns")],
             [InlineKeyboardButton(
-                "⚜️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/KrakinzLab")],
+                "⚜️ Channel", url="https://t.me/KrakinzLab")],
             [InlineKeyboardButton("YouTube🎬Downloader",
                                   url="https://t.me/HvYouTubeBot")],
             [InlineKeyboardButton(
                 "YouTubeMusic⭕️Downloader", url="https://t.me/HvYouTubeMusicBot")],
             [InlineKeyboardButton("SoundCloud🟠Downloader", url="https://t.me/HvSoundCloudBot")]]),
         caption=f"""
-一 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 一
+デ 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 デ 
 
 🏷**ᴛɪᴛʟᴇ:**  __**{title}**__
 🎬**ꜱɪᴛᴇ:**  [𝐘𝐨𝐮𝐓𝐮𝐛𝐞](https://youtube.com)
@@ -417,13 +418,13 @@ async def audio_sender(𝐓𝐮𝐛𝐞: Message, Audio_Hole, audio_file):
 ⌛️**ᴅᴜʀᴀᴛɪᴏɴ:**  [{duration}s](https://t.me/KrakinzLab)
 📡**ʟɪɴᴋ:**  __{webpage_url}__
 """,
-        thumb=resized_thumb)
+        thumb=KRAK_RESIZED_THUMB)
     await void.delete()
     try:
-        os.remove(audio_file)
-        os.remove(Master_Thumb)
-        os.remove(resized_thumb)
-        os.remove(Squared_Thumb)
+        os.remove(KRAK_AUDIOFILE)
+        os.remove(KRAK_MASTER_THUMB)
+        os.remove(KRAK_RESIZED_THUMB)
+        os.remove(KRAK_SQUARED_THUMB)
     except Exception as e:
         if HEROKU == "HEROKU":
             LOGS.info(str(e))
@@ -655,25 +656,25 @@ has been licensed under GNU General Public License
 if HEROKU == "HEROKU":
     𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜.start()
     LOGS.info(UTUBE)
-    LOGS.info("🍁🎷一═デ𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞デ═一")
+    LOGS.info("🍁🎷一═デ 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 デ═一")
     LOGS.info("ONLINE🍁🎷")
 else:
     𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜.start()
     os.system("clear")
     cprint(UTUBE, "green")
-    cprint("🍁🎷一═デ𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞デ═一", "yellow")
+    cprint("🍁🎷一═デ 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 デ═一", "yellow")
     cprint("ONLINE🍁🎷", "yellow")
 idle()
 if HEROKU == "HEROKU":
     𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜.stop()
     LOGS.info(UTUBE)
-    LOGS.info("🍁🎷一═デ𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞デ═一")
+    LOGS.info("🍁🎷一═デ 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 デ═一")
     LOGS.info("OFFLINE ⚰️🍁")
 else:
     𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜.stop()
     os.system("clear")
     cprint(UTUBE, "red")
-    cprint("🍁⚰️一═デ𝐘𝐨𝐮𝐓𝐮𝐛𝐞⭕️𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞デ═一", "cyan")
+    cprint("🍁⚰️一═デ 𝐘𝐨𝐮𝐓𝐮𝐛𝐞𝐌𝐮𝐬𝐢𝐜⭕️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 デ═一", "cyan")
     cprint("OFFLINE ⚰️🍁", "red")
 "|"
 "|"
