@@ -1,0 +1,11 @@
+Pillow
+Pyrogram
+TgCrypto
+beautifulsoup4
+requests
+termcolor
+loguru
+python-dotenv
+youtube-dl
+pyAesCrypt
+ffmpeg-python   

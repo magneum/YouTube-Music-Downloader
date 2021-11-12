@@ -1,0 +1,23 @@
+{"name": "一═デ⭕️_𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐌𝐮𝐬𝐢𝐜 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫_⭕️デ═一",
+"description": "Download any youtube music in telegram",
+"repository": "https://github.com/Krakinz/YouTube-Music-Downloader.git",
+"logo": "https://telegra.ph/file/276f806feff4c00c6b501.jpg",
+"website": "https://t.me/Krakns",
+"stack": "container",
+"env": {
+"API_ID":{
+"description":"api_id part of your Telegram API Key From @HVApiBot Only",
+"required":true},
+"CODE":{
+"description":"ENTER THE CODE GIVEN",
+"required":true},
+"API_HASH":{
+"description":"api_hash part of your Telegram API Key From @HVApiBot Only",
+"required":true},
+"HEROKU":{
+"description":"KEEP IT HEROKU!!!!!!!",
+"required":true},
+"BOT_TOKEN":{
+"description": "Your @BotFather BOT Token.",
+"required":true}},
+"buildpacks": [{"url": "heroku/python"}]}
